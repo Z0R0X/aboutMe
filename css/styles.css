@@ -1,37 +1,116 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
 
-    body
-    {
-        background-color:#EAF6F6;
-    }
-    hr
-    {
-        border: none;
-        border-top: dotted;
-        border-width: 5px;
-        border-color: grey;
-        width: 10%
-    }
-    h1
-    {
-        color: #66BFBF;
-        font-family: Courier New Lucida Console Monaco,monospace;
-    }
-    h3
-    {
-        color: #66BFBF;
-        font-family: Courier New Lucida Console Monaco,monospace;
-    }
-    p, table, form, li, a
-    {
-        font-family: Courier New Lucida Console Monaco,monospace;
-        font-size: 15px;
-    }
+h1 {
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    font-size: 5.625rem;
+    font-family: 'Inspiration', cursive;
+    color: #66BFBF;
+}
 
-    .profile-pic
-    {
-        border-radius: 100%;
-    }
-    .description
-    {
-        color: #7a7a7a;
-    }
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Ramaraja', serif;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Ramaraja', serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 40px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gamer-img {
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin: 100px;
+}
+
+.footer-link{
+    margin: auto 20px;
+}
+
+.end-name {
+    color: #EAF6F6;
+}
+
+.profile {
+    margin: 60px auto 100px auto;
+}
+
+.btn{
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
